@@ -1,393 +1,239 @@
 body {
-    background-image: url(https://th.bing.com/th/id/R4bd583f…?rik=rrqCmC5BBWuByQ&riu=http%3a%2f%2fcdn.lowgif.com%2fsmall%2fec784a2e6e6cc82d-aesthetic-tumblr-wallpaper.gif&ehk=xrDoSkdlqxzOYZ9vuDaUi5h1%2f5KY3OAobdw8UBrmn%2bU%3d&risl=&pid=ImgRaw);
-    animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
-}
-
-
-    @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-}
-
-
-
-h4 {
-  color: #fff;
-  margin: 0;
-  font-family: ocr a;
-  background-image: linear-gradient(to right,black, #c26d6d, black);
-}
-
-* {
-  color: #782b2b;
-  font-family: ocr a;
-cursor: url(https://cur.cursors-4u.net/others/oth-9/oth801.cur), auto !important;
-}
-
-
-button, input[type=submit] {
-  padding: 5px;
-  background: #101010;
-  color: #aaa;
-  border: 1px solid #2b2b2b;
-  border-radius: 3px;
-  margin-top: 10px;
-}
-
-a, a h3, .boxInfo a div, .fwiendFace b {
-  text-shadow: 2px 2px #734444;
-}
-
-.blurbs, #box, #header, #hSub, #commentInput {
-    background: black;
-    border: 1px solid #994b4b;
-    padding: 0px;
-    margin-bottom: 10px;
-    box-shadow: 10px 10px 50px #5c3838;
-}
-
-.extended.box {
-    background-image: url(https://data.whicdn.com/images/332590050/original.gif);
-}
-
-.box > :not(#form) {
-   padding: 7px;
-  text-align: center;
-}
-
-#form > {
-  padding: 7px;
-}
-
-.url.box a {
-    color: #aaa !important;
-    padding: 2px;
-    background-image: url(https://data.whicdn.com/images/332590050/original.gif);
-    border: none;
-}
-
-.rightHead, .boxHead {
-  background-image: url(https://data.whicdn.com/images/332590050/original.gif);
-  padding: 7px;
-  border-bottom: 1px solid #1b1b1b;
-  font-family: ocr a;
-}
-
-.rightHead b, .rightHead span, .boxHead b, .box.url b {
-  color: #fff;
-  font-family: ocr a;
-}
-
-#avatar {
-  border-radius: 25px;
-    background: #c26d6d;
-    padding: 10px;
-    width: 155px;
-    height: 150px;
-}
-
-#hSub {
-  top: 35px !important;
-  text-indent: 500px;
-}
-
-#header, #hSub {
-    width: calc( 100% - 15px );
-    border-bottom: 1px solid #000 !important;
-    background: linear-gradient(
-90deg
-,#331c1c , #573434, #a16c6c, #c77d7d 100%)!important;
+    background-image: url(https://i.ibb.co/FXjQFS8/download-8.jpg);
+    background-size: cover;
+    font-family: "MS PGothic", "Meiryo", メイリオ, "Hiragino Kaku Gothic ProN", ヒラギノ角ゴ Pro W3, sans-serif;
+    font-size: 13px;
+    color: darkgray;
+    text-shadow: 0px 0px 5px;
+    letter-spacing: 1px;
     text-align: center;
-    border-top: 2px solid #241919;
-    border-bottom: 2px solid #fff;
-    color: black !important;
 }
-
-.blurbs, #box,
+a {
+    color: white;
 }
-
-div#hSub a:first-child {
-  border-bottom: 2px solid #00ccff;
-  padding-bottom: 7px;
+a:hover {
+    color: #6e5d5d;
 }
-
+h4 {
+    color: #C0C0C0;
+}
+.fwiendCount {
+    color: #C0C0C0;
+}
 #name {
-  color: #fff;
-  font-family: ocr a;
+    color: #C0C0C0;
+}
+div#header > a > b > span {
+    color: transparent;
+}
+div#header > a > b > span::before {
+    content: "Edgar Valden, The Painter";
+    color: white;
+}
+img {
+    filter: grayscale(1);
 }
 
-/* Comments */
 
-.tableLeft {
-  background: none;
-  width: 20% !important;
-  font-family: ocr a;
-}
-
-.tableRight {
-  background: none;
-  font-family: ocr a;
-}
-
-.tableLeft img {
-  max-width: 100px;
-  max-height: 100px;
-}
-
-.date {
-  color: #505050;
-  font-family: ocr a;
-}
-
-.tableLeft a div b {
-  color: red;
-  float: left;
-  margin-bottom: 7px !important;
-  font-family: ocr a;
-}
-p {
-    margin: 15px;
-}
-.player::after {
-    content: "";
-    display: block;
-    position: relative;
-    width: calc(40% -20px);
-    height: 300px;
-    max-width: 500px;
-    background-position: 0 0;
-    background-size: 100% 100%;
-    background-image: url( here );
-}
-
-.boxButton {
-    display: inline-block;
-    width: calc( 49% - 60px );
-    padding-left: 30px;
-    height: 24px;
-    font-size: small;
-    color: red;
-    padding-top: 7px;
-}
 
 #container {
-    max-width: 1024px;
-    margin-left: auto;
-    background-color: black;
-    margin-right: auto;
-    box-shadow: 10px 10px 100px #b56b6b;
-}
-
-.fwiendFace img {
-    width: 70%;
-    border-radius: 60px;
-    height: 90px;
-    object-fit: cover;
-    padding: 3px;
-    background: #a66a6a;
-    display: block;
+    max-width: 800px;
+    height: 1000px;
+    margin-top: 10px;
+    margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
+    background: #c1c1c1;
+    border: ridge #878585 8px;
+    font-family: "MS PGothic", "Meiryo", メイリオ, "Hiragino Kaku Gothic ProN", ヒラギノ角ゴ Pro W3, sans-serif;
+    text-align: center;
 }
-audio {
-    margin-bottom: 0px;
-    margin-top: 5px;
-    width: 100%;
-    height: 30px;
-    background: #f3f3f3;
-    outline: none;
-    margin-bottom: -3px;
-    filter: sepia(0%) saturate(100%) grayscale(0) contrast(100%) invert(100%);
+.topRight {
+    margin-top: 0px;
+    width: 450px;
 }
-.player {
-    padding: 4px;
-    margin-top: 20px;
+.topLeft {
+    float: left;
+    width: 295px;
+    margin-left: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background: #d3cfcf;
+    border: 5px double #8f8181;
+}
+.extended {
+    border: 1px solid #000;
+    text-align: center;
     margin-bottom: 20px;
-    background: #0b0b0b;
-    color: #000;
-    width: calc(100% - 10px );
-    border: 1px solid #8b0b0b;
+    margin-top: 0px;
 }
-
-.fwiendFace b {
-    text-shadow: 2px 2px #702020;
+.blurbs {
+    margin-bottom: 20px;
+    height: 260px;
+    overflow-y: scroll;
     padding: 10px;
 }
-.blog {
-    background-color: #260f0f;
-    padding: 15px;
-}
-
-img:hover {
-animation-name: shake;
-animation-duration: 4s;
-animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-0% {transform: translate(1px, 1px) rotate(0deg);}
-10% {transform: translate(-1px, -2px) rotate(-1deg);}
-20% {transform: translate(-3px, 0px) rotate(1deg);}
-30% {transform: translate(3px, 2px) rotate(0deg);}
-}
-
-#sMsg {
-    background-repeat: no-repeat;
-    background-image: url( here );
-}
-
-#block {
-    background-repeat: no-repeat;
-    background-image: url(https://64.media.tumblr.com/3f9d031b8bb9ffe5bdb0ea0e23c07f31/tumblr_inline_p7gi20aXG41qfc9y0_75sq.gifv);
-}
-
-#report {
-    background-repeat: no-repeat;
-    background-image: url(https://64.media.tumblr.com/3f9d031b8bb9ffe5bdb0ea0e23c07f31/tumblr_inline_p7gi20aXG41qfc9y0_75sq.gifv);
-}
-
-#add {
-    background-repeat: no-repeat;
-    background-image: url(https://64.media.tumblr.com/3f9d031b8bb9ffe5bdb0ea0e23c07f31/tumblr_inline_p7gi20aXG41qfc9y0_75sq.gifv);
-}
-
-.topLeft:after {
-    content: "";
-    white-space: pre-wrap;
-    display: block;
-    height: 500px;
-    background-image: url(lll), url( here );
-    background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
-    background-size: 390px;
-}
-
-.blogs {
-    display: flex;
-    flex-grow: 3;
-    margin: 15px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
-.blurbs>.blogs>div:not(:first-child):before {
-    content: "";
-    display: block;
-    width: 96px;
-    height: 64px;
-    background: url( here );
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80px;
-}
-
-.blurbs>.blogs>div:not(:first-child) {
-    width: 96px;
-    text-align: center;
-    margin: 0px;
-}
-
 .box.blurbs {
-    overflow: auto;
-    margin: 5px;
-    padding: 5px;
-    height: 540px;
-    overflow: auto;
+    overflow-y: scroll;
 }
-
-.url {
-    border: solid 2px #ac1c1c;
-    padding: 2px;
+#commentInput {
+    width: calc( 100% - 6px );
+    margin: 0;
+    margin-top: 10px;
+    background: lightgray;
+    height: 80px;
+    margin-bottom: 5px;
 }
-
-.blog {
-    background-color: #301e1e;
-    padding: 15px;
-    width: 700px;
-}
-
 #userWall {
     margin-top: 10px;
-    overflow-wrap: break-word;
+    word-wrap: break-word;
     display: inline-block;
+    overflow: hidden;
     width: 100%;
-    margin:5px;
-    padding:5px;
-    height: 400px;
-    overflow: auto;
+    height: 150px;
+    overflow-y: scroll;
 }
-
-.logo::after {
-    content: "Edgar Valden, The Painter.";
-    text-shadow: 2px 2px 4px white;
+.box.fwiends {
+    padding: 10px;
+    height: 175px;
+    margin-bottom: 10px;
+}
+.box {
+    border: none;
+    overflow: hidden;
+    background: #f0e6e663;
+    border: 5px double #8f8181;
+}
+.rightHead {
+    background: #fc90;
+    color: #ffffff;
+    padding-left: 4px;
+}
+.tableRight {
+    width: 75%;
+    background: #d3cfcf;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+.tableLeft {
+    background: #858585;
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.boxHead {
+    background: #858585;
     color: white;
-    line-height: 10px;
-    font-size: 20px;
-    padding: 70px;
+    padding: 3px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+}
+div#header {
+    background: #524848;
+}
+div#hSub {
+    background: #a29999;
 }
 
-.blinkGreen {
-    animation: blinkingTextRed 0.3s infinite;
-}
+/* contact box */
 
-.blinkYellow {
-    animation: blinkingTextRed 0.3s infinite;
+#block {
+     font-size: 0px;
 }
-
-.blinkViolet {
-    animation: blinkingTextRed 0.3s infinite;
+#report {
+     font-size: 0px;
 }
-
-.songName span {
-    display: inline-block;
-    padding-left: 100%;
-    animation: marquee 15s linear infinite;
+#sMsg {
+     background-image: url(https://i.ibb.co/sHrLNL4/urmommmn.gif);
+     font-size: 0px;
+     margin-top: 10px;
 }
-
-@keyframes marquee{
-0% {
-    transform: translate(0, 0);
+#sMsg::after {
+     content: "Let's chat!!";
+     font-size: 13px;
+     color: white
 }
-
-100% {
-    transform: translate(-100%, 0);
+#add {
+     background-image: url(https://i.ibb.co/sHrLNL4/urmommmn.gif);
+     font-size: 0px;
 }
-
+#add::after {
+     content: "Add me!";
+     font-size: 13px;
+     color: white
 }
-div.songName {
-    color: #0a0000;
-}
-.songName img {
+div#report.boxButton, div#block.boxButton {
     display: none;
 }
 
-}
-.player a img, .player audio::-webkit-media-controls-play-button, .player audio::-webkit-media-controls-mute-button, .player audio::-webkit-media-controls-volume-slider, .player audio::-webkit-media-controls-timeline {
-    filter: invert();
-    -webkit-filter: invert();
-}
-.player audio, .player audio::-webkit-media-controls, .player audio::-webkit-media-controls-enclosure, .player audio::-webkit-media-controls-panel {
-    background: #fff;
-    background: var(--color--bg-box);
-    height: 36px;
-    filter: none;
+
+
+.player::after {
+     content: "";
+     top: 40px;
+     display: block;
+     position: relative;
+     width: calc(40% -20px);
+     height: 290px;
+     max-width: 250px;
+     background-position: 0 0;
+     background-size: 100% 100%;
+     background-image: url(https://i.ibb.co/48bjg3t/Eyxv-Jn-QXMAU-e9b-removebg-preview.png); 
+     padding-bottom: 5px; 
 }
 
-.blogs b {
-    display: none;
+
+
+/* KEYFRAMES */
+
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 20px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
+
+@-webkit-keyframes reveal { from { opacity:0; } to { opacity:1; }  }
+   @-moz-keyframes reveal { from { opacity:0; } to { opacity:1; }  }
+     @-o-keyframes reveal { from { opacity:0; } to { opacity:1; }  }
+        @keyframes reveal { from { opacity:0; } to { opacity:1; }  }
+body {
+    -webkit-animation: 1s linear forwards reveal;
+     -moz-animation: 1s linear forwards reveal;
+       -o-animation: 1s linear forwards reveal;
+          animation: 4s linear forwards reveal;
+}
+.blurbs, .box, .box.comments {
+    animation-name: floating;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
-span, #header {
-    text-indent: -207;
+
+
+
+/* invisible stuff */
+
+#footer > div > p { 
+   display: none;
+}
+#footer {
+  display: none;
 }
 
-span.sep {
-    color: white;
+/* blog */
+
+#container > div.topLeft.blogCard {
+    animation-name: none;
+    width: 250px;
+    margin-top: 20px;
 }
-
-.logo b span {
-    display: none;
-
+#container > div.topRight.blogPost {
+    animation-name: none;
+    width: 490px;
+    margin-top: 5px;
 }
 .url {
     font-size: 0px;
@@ -405,3 +251,4 @@ span.sep {
     z-index: 1000;
   
 }
+
