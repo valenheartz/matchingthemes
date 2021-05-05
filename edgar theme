@@ -1,3 +1,11 @@
+div#online {
+content: url(https://www.myspacegens.com/images/online_now/94.gif);
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
 body {
     background-image: url(https://i.ibb.co/FXjQFS8/download-8.jpg);
     background-size: cover;
@@ -251,3 +259,6 @@ body {
 .avatar {border-radius: 100px;
 
 }
+
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol317.cur), auto !important;} /* End https://www.cursors-4u.com */
